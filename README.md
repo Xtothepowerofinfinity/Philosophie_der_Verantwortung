@@ -8,7 +8,7 @@ This repository contains the core documentation, mathematical logic, system ethi
 
 ## 📚 Contents
 
-- Master thesis: *X^∞ – Die Philosophie der Verantwortung*
+- Model: *X^∞ – Die Philosophie der Verantwortung*
 - Cap-System: mathematical and ethical delegation logic
 - Systemic ethics: Kantian foundation, self-correction, and distributed legitimacy
 - Implementation principles: from infrastructure to social structures
@@ -37,7 +37,8 @@ Dieses Repository dokumentiert das X^∞-Modell – ein ethisch geschlossenes, m
 
 ## 📚 Inhalte
 
-- Masterarbeit: *X^∞ – Die Philosophie der Verantwortung*
+- Hauptwerk: *X^∞ – Die Philosophie der Verantwortung*
+- Papers
 - Cap-System: mathematische Logik für Verantwortung und Delegation
 - Systemethik: Kant, Rückkopplung und ethische Selbstkorrektur
 - Implementierung: von gesellschaftlicher Struktur bis technischer Simulation
