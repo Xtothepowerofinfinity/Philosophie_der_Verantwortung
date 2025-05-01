@@ -1,0 +1,35 @@
+{
+  "phase_1": {
+    "device_action": "Display QR with device_id, request_id, and domain",
+    "qr_payload": {
+      "device_id": "DEV-XYZ-123",
+      "domain": "infra",
+      "request_id": "req-8843-a1"
+    }
+  },
+  "phase_2": {
+    "app_action": "Scan QR and check local CapToken validity for scope 'device:/auth'",
+    "response": {
+      "cap_token": {
+        "role": "infra.auth",
+        "scope": [
+          "device:/auth",
+          "device:/DEV-XYZ-123"
+        ],
+        "valid_until": "TS+300sec"
+      }
+    }
+  },
+  "phase_3": {
+    "delivery_options": [
+      "BLE (broadcast encrypted CapToken)",
+      "HTTPS (direct POST to device)",
+      "Socket handshake (LAN discovery)"
+    ]
+  },
+  "security": {
+    "token_ttl": 300,
+    "no_identity_exposure": true,
+    "audit_each_auth": true
+  }
+}

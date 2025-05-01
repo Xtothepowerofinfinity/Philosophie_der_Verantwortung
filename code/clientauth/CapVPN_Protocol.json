@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "auth": {
+    "method": "CapToken",
+    "fields": [
+      "wallet",
+      "scope",
+      "role",
+      "cap_level",
+      "signature"
+    ],
+    "min_required_scope": "net:/vpn/core"
+  },
+  "connect": {
+    "target": "vpn.capos.xinf",
+    "commercial_bridge": [
+      "protonvpn",
+      "mullvad",
+      "nordlayer"
+    ],
+    "cap_context_binding": true
+  },
+  "session": {
+    "token_lifetime_sec": 600,
+    "refresh_strategy": "revalidate_cap_every_5min",
+    "fallback": "disconnect_if_cap_invalid"
+  },
+  "logging": {
+    "audit_log": true,
+    "fields_logged": [
+      "timestamp",
+      "cap_wallet",
+      "scope",
+      "role",
+      "exit_node_id"
+    ],
+    "phantom_routing": true
+  }
+}

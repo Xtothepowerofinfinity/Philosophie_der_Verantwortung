@@ -1,0 +1,61 @@
+{
+  "login": {
+    "required_role": "interactive",
+    "min_cap": 40,
+    "scope": []
+  },
+  "filesystem": {
+    "scope_prefix": "capfs:/",
+    "min_cap": "dynamic_by_path"
+  },
+  "processes": {
+    "require_cap_token": true,
+    "audit_required": true,
+    "scope_prefix": "proc:/",
+    "token_fields": [
+      "role",
+      "cap_scope",
+      "cap_level",
+      "signature"
+    ],
+    "min_cap_level": 10
+  },
+  "network": {
+    "scope_prefix": "net:/",
+    "min_cap": "dynamic_by_port"
+  },
+  "system_services": {
+    "required_flag": [
+      "phantom",
+      "admin"
+    ],
+    "min_cap": 90
+  },
+  "devices": {
+    "camera": {
+      "scope": "dev:/camera",
+      "min_cap": 50
+    },
+    "microphone": {
+      "scope": "dev:/micro",
+      "min_cap": 50
+    },
+    "usb": {
+      "scope": "dev:/usb",
+      "min_cap": 60
+    }
+  },
+  "audit": {
+    "enabled": true,
+    "log_path": "/var/log/cap_kernel_log.json",
+    "fields": [
+      "pid",
+      "cap_wallet",
+      "cap_scope",
+      "invocation_hash",
+      "timestamp",
+      "role",
+      "parent_pid"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "identity": {
+    "type": "wallet-auth",
+    "fields": [
+      "wallet_address",
+      "cap_token",
+      "signature"
+    ]
+  },
+  "handshake": {
+    "phase_1": {
+      "client_sends": {
+        "wallet": "0xABC...",
+        "cap_token": {
+          "role": "infra.vpn",
+          "scope": [
+            "net:/vpn/core"
+          ],
+          "valid_until": "1715009999",
+          "signature": "0xCAPTOKEN_SIG"
+        },
+        "signed_nonce": "0xSIGNED_CHALLENGE"
+      }
+    },
+    "phase_2": {
+      "server_validates": [
+        "wallet in CapVPNRegistry",
+        "cap_token.scope includes 'net:/vpn/core'",
+        "signature matches wallet"
+      ],
+      "server_sends": {
+        "ephemeral_cert": "PEM",
+        "dh_public_key": "x25519_or_hybrid",
+        "session_id": "generated"
+      }
+    },
+    "phase_3": {
+      "client_finalizes_tls": true,
+      "client_binds_tls_to_wallet": true
+    }
+  },
+  "crypto": {
+    "kex": [
+      "X25519",
+      "KyberHybrid"
+    ],
+    "auth": "mutual_tls_wallet_based",
+    "cipher": "AES-GCM-256",
+    "hash": "SHA3-512"
+  },
+  "audit": {
+    "log": true,
+    "fields": [
+      "wallet",
+      "timestamp",
+      "exit_node",
+      "cap_scope",
+      "session_id"
+    ]
+  }
+}
