@@ -1,0 +1,75 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+/// @title CapLedger - X^\u221e Proof of Concept for Responsibility Tracking
+contract CapLedger {
+    struct CapState {
+        uint256 capSolo;
+        uint256 capTeam;
+        uint256 capPotential;
+        uint256 capTeamMax;
+        uint256 lastUpdated;
+    }
+
+    struct CapFeedback {
+        uint256 fE;
+        uint256 mE;
+        address source;
+        uint256 timestamp;
+    }
+
+    address public owner;
+    mapping(address => CapState) public capStates;
+    mapping(address => CapFeedback[]) public feedbackHistory;
+
+    event CapUpdated(address indexed user, uint256 newCapSolo, uint256 newCapTeam);
+    event FeedbackSubmitted(address indexed user, address source, uint256 fE, uint256 mE);
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Only owner");
+        _;
+    }
+
+    constructor() {
+        owner = msg.sender;
+    }
+
+    function initCapState(address user, uint256 solo, uint256 team, uint256 potential, uint256 teamMax) external onlyOwner {
+        capStates[user] = CapState(solo, team, potential, teamMax, block.timestamp);
+    }
+
+    function submitFeedback(address user, uint256 fE, uint256 mE) external {
+        require(fE <= 100 && mE <= 100, "Invalid feedback values");
+        feedbackHistory[user].push(CapFeedback(fE, mE, msg.sender, block.timestamp));
+        emit FeedbackSubmitted(user, msg.sender, fE, mE);
+    }
+
+    function applyFeedback(address user, uint256 phi, uint256 psi) external onlyOwner {
+        CapState storage cap = capStates[user];
+        CapFeedback[] memory fb = feedbackHistory[user];
+        require(fb.length > 0, "No feedback");
+
+        uint256 totalFE = 0;
+        uint256 totalME = 0;
+        for (uint i = 0; i < fb.length; i++) {
+            totalFE += fb[i].fE;
+            totalME += fb[i].mE;
+        }
+
+        uint256 avgFE = totalFE / fb.length;
+        uint256 avgME = totalME / fb.length;
+        uint256 wE = 1e4 / cap.capPotential; // scaled inverse weight
+
+        int256 delta = int256(phi * wE * avgFE) - int256(psi * avgME);
+
+        if (delta >= 0) {
+            cap.capSolo += uint256(delta);
+        } else {
+            uint256 loss = uint256(-delta);
+            cap.capSolo = (cap.capSolo > loss) ? cap.capSolo - loss : 0;
+        }
+
+        cap.lastUpdated = block.timestamp;
+        emit CapUpdated(user, cap.capSolo, cap.capTeam);
+    }
+}
