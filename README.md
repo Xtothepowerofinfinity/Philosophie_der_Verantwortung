@@ -19,7 +19,7 @@ This repository contains the core documentation, mathematical logic, system ethi
 
 Der Auctor  
 **Contact:** x_to_the_power_of_infinity@protonmail.com  
-**Official site:** [https://x.com/tothepowerofinf](https://x.com/tothepowerofinf)
+**Official site:** [https://mastodon.social/@The_Auctor]
 
 ## 🕊️ License and Use
 
@@ -49,7 +49,7 @@ Dieses Repository dokumentiert das X^∞-Modell – ein ethisch geschlossenes, m
 
 Der Auctor  
 **Kontakt:** x_to_the_power_of_infinity@protonmail.com  
-**Offiziell:** [https://x.com/tothepowerofinf](https://x.com/tothepowerofinf)
+**Offiziell:** [https://mastodon.social/@The_Auctor]
 
 ## 🕊️ Lizenz und Nutzung
 
