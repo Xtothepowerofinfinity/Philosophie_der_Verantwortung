@@ -1,0 +1,1 @@
+# Placeholder for gate_sync.dart
