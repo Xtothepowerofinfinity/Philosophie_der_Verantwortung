@@ -1,0 +1,11 @@
+{
+    "task_id": "INC-001",
+    "cap_id": "Z-001",
+    "agent": "node-23.gate.local",
+    "cap_potential": 0.4,
+    "feedback_score": 0.3,
+    "misuse_score": 0.05,
+    "severity": "normal",
+    "description": "Node failed to complete task due to database timeout",
+    "timestamp": "2025-05-02T12:00:00Z"
+}

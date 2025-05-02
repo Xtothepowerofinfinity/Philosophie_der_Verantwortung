@@ -1,0 +1,31 @@
+{
+    "cap_id": "Z-001",
+    "audit_timestamp": "2025-05-02T04:26:42.501693",
+    "verifications": {
+        "chain_integrity": {
+            "valid": true,
+            "message": "Chain delegation consistent"
+        },
+        "scope_use": {
+            "valid": true,
+            "message": "All used scopes valid"
+        },
+        "acknowledgements": {
+            "valid": true,
+            "message": "ACKs valid"
+        }
+    },
+    "cap_chain_snapshot": {
+        "delegation_chain": [
+            "A1 \u2192 A3",
+            "A3 \u2192 A4"
+        ],
+        "final_ack": "A3 \u2192 A1",
+        "last_action": "A4 completed DB read",
+        "confirmed_scope": [
+            "read",
+            "db:Y"
+        ],
+        "incident_flag": false
+    }
+}

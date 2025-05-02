@@ -1,0 +1,36 @@
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
+
+contract CapAuditStorage {
+    struct AuditRecord {
+        string capId;
+        uint256 timestamp;
+        bytes32 auditHash;
+        string ipfsHash;
+    }
+
+    mapping(string => AuditRecord) public records;
+
+    event AuditStored(string capId, bytes32 auditHash, string ipfsHash, uint256 timestamp);
+
+    function storeAudit(string memory capId, bytes32 auditHash, string memory ipfsHash) public {
+        require(bytes(capId).length > 0, "capId required");
+        require(bytes(ipfsHash).length > 0, "ipfsHash required");
+
+        AuditRecord memory record = AuditRecord({
+            capId: capId,
+            timestamp: block.timestamp,
+            auditHash: auditHash,
+            ipfsHash: ipfsHash
+        });
+
+        records[capId] = record;
+
+        emit AuditStored(capId, auditHash, ipfsHash, block.timestamp);
+    }
+
+    function getAudit(string memory capId) public view returns (AuditRecord memory) {
+        return records[capId];
+    }
+}

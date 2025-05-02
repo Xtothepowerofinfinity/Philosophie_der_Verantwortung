@@ -1,0 +1,57 @@
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
+
+contract CapAuditStorageV2 {
+    struct AuditRecord {
+        string capId;
+        uint256 timestamp;
+        bytes32 auditHash;
+        string ipfsHash;
+    }
+
+    struct IncidentRecord {
+        string incidentId;
+        string capId;
+        string responsibleAgent;
+        bytes32 incidentHash;
+        string ipfsHash;
+        uint256 timestamp;
+        string severity;
+    }
+
+    mapping(string => AuditRecord) public audits;
+    mapping(string => IncidentRecord) public incidents;
+
+    event AuditStored(string capId, bytes32 auditHash, string ipfsHash, uint256 timestamp);
+    event IncidentStored(string incidentId, string capId, string agent, string severity, bytes32 hash, uint256 timestamp);
+
+    function storeAudit(
+        string memory capId,
+        bytes32 auditHash,
+        string memory ipfsHash
+    ) public {
+        audits[capId] = AuditRecord(capId, block.timestamp, auditHash, ipfsHash);
+        emit AuditStored(capId, auditHash, ipfsHash, block.timestamp);
+    }
+
+    function storeIncident(
+        string memory incidentId,
+        string memory capId,
+        string memory responsibleAgent,
+        string memory severity,
+        bytes32 incidentHash,
+        string memory ipfsHash
+    ) public {
+        incidents[incidentId] = IncidentRecord(incidentId, capId, responsibleAgent, incidentHash, ipfsHash, block.timestamp, severity);
+        emit IncidentStored(incidentId, capId, responsibleAgent, severity, incidentHash, block.timestamp);
+    }
+
+    function getAudit(string memory capId) public view returns (AuditRecord memory) {
+        return audits[capId];
+    }
+
+    function getIncident(string memory incidentId) public view returns (IncidentRecord memory) {
+        return incidents[incidentId];
+    }
+}
