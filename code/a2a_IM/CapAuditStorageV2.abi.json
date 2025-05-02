@@ -1,0 +1,160 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "capId",
+        "type": "string"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "auditHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "string",
+        "name": "ipfsHash",
+        "type": "string"
+      }
+    ],
+    "name": "storeAudit",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "incidentId",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "capId",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "responsibleAgent",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "severity",
+        "type": "string"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "incidentHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "string",
+        "name": "ipfsHash",
+        "type": "string"
+      }
+    ],
+    "name": "storeIncident",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "capId",
+        "type": "string"
+      }
+    ],
+    "name": "getAudit",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "string",
+            "name": "capId",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "timestamp",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "auditHash",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "string",
+            "name": "ipfsHash",
+            "type": "string"
+          }
+        ],
+        "internalType": "struct CapAuditStorageV2.AuditRecord",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "incidentId",
+        "type": "string"
+      }
+    ],
+    "name": "getIncident",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "string",
+            "name": "incidentId",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "capId",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "responsibleAgent",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "incidentHash",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "string",
+            "name": "ipfsHash",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "timestamp",
+            "type": "uint256"
+          },
+          {
+            "internalType": "string",
+            "name": "severity",
+            "type": "string"
+          }
+        ],
+        "internalType": "struct CapAuditStorageV2.IncidentRecord",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

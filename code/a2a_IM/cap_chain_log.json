@@ -1,0 +1,40 @@
+{
+    "cap_id": "Z-001",
+    "task": "read_1000_rows_from_DB_Y",
+    "original_issuer": "A1",
+    "chain": [
+        {
+            "agent": "A1",
+            "delegated_to": "A3",
+            "scope": [
+                "read",
+                "db:Y"
+            ],
+            "timestamp": "2025-05-02T04:19:43.999695"
+        },
+        {
+            "agent": "A3",
+            "delegated_to": "A4",
+            "scope": [
+                "read"
+            ],
+            "timestamp": "2025-05-02T04:19:43.999703",
+            "used_scope": [
+                "read"
+            ]
+        }
+    ],
+    "acknowledgement": {
+        "from": "A4",
+        "to": "A3",
+        "status": "completed",
+        "task_confirmed": true,
+        "timestamp": "2025-05-02T04:19:43.999705"
+    },
+    "final_ack": {
+        "from": "A3",
+        "to": "A1",
+        "status": "task_complete_chain_closed",
+        "timestamp": "2025-05-02T04:19:43.999707"
+    }
+}
