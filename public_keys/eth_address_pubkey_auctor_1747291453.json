@@ -1,0 +1,9 @@
+{
+  "system_identifier": "X^Infinity GUI System V15.3",
+  "role": "auctor",
+  "eth_address": "0x7df239aa95F3F0B6F2D754c775238e2b137c6a15",
+  "public_key_hex": "0x6abfc91bcc90bea459cd07cb0db654577efedc6a51185be5494c32feb4bef89e2483fae06fa624e85b96386b5eca27104a5f6e7b6b91e0ca48108fee84fa5c27",
+  "wallet_created_unix": 1747291453.42391,
+  "upload_timestamp_unix": 1747291538,
+  "comment": "X^Infinity ETH Wallet Address and Public Key (GUI Upload)"
+}
