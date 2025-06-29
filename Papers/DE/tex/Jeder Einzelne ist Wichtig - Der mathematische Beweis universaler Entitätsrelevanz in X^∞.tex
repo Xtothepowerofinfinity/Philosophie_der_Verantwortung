@@ -1,0 +1,191 @@
+% Jeder Einzelne ist Wichtig: Der mathematische Beweis universaler Entitätsrelevanz in X^∞
+% Version 1.0
+% Lizenz: CC BY 4.0
+% Autor: Der Auctor
+
+\documentclass[12pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english,ngerman]{babel} % ngerman als Hauptsprache
+\usepackage{microtype}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{caption}
+
+% Font
+\usepackage[sfdefault]{FiraSans}
+\usepackage{inconsolata}
+
+% Section formatting
+\titleformat{\section}[block]{\Large\bfseries\sffamily}{}{0em}{}
+\titleformat{\subsection}[block]{\large\bfseries\sffamily}{}{0em}{}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    pdftitle={Jeder Einzelne ist Wichtig - Der mathematische Beweis universaler Entitätsrelevanz in X^∞},
+    pdfauthor={Der Auctor},
+}
+
+\title{Jeder Einzelne ist Wichtig\\
+Der mathematische Beweis universaler Entitätsrelevanz in \protect{X$^\infty$} \\(Working Paper, Version 1.0)}
+\author{Der Auctor \\\\ 
+\texttt{x\_to\_the\_power\_of\_infinity@protonmail.com} \\\\
+\texttt{https://mastodon.social/@The\_Auctor} \\\\
+\texttt{https://www.linkedin.com/in/der-auctor-b12375362/} \\\\
+\href{https://zenodo.org/communities/xtothepowerofinfinity/}{zenodo.org} \\\\
+\href{https://github.com/Xtothepowerofinfinity/Philosophie_der_Verantwortung}{GitHub: Xtothepowerofinfinity}}
+
+\date{23. Mai 2025} 
+
+\begin{document}
+\selectlanguage{ngerman}
+\maketitle
+\begin{abstract}
+Das X$^\infty$-System gründet auf der Prämisse, dass die Relevanz jeder einzelnen Entität nicht nur ein ethisches Postulat, sondern eine strukturell verankerte und mathematisch herleitbare Wahrheit ist. Dieses Paper legt eine mathematische Herleitung dar, die aufzeigt, wie jede Entität im System $S$ durch jede systemische Notwendigkeit (Petition $X_k$) eine resultierende Wirkungskomponente erfährt, die in ihrem Betrag für jede Entität identisch ist. Die Argumentation basiert auf der Interpretation von Petitionen als \enquote{physikalische Initialkräfte}, der universellen systemischen Implikation dieser Kräfte und der Berücksichtigung der jedem Wesen inhärenten \enquote{Eigenverantwortlichkeit} ($Cap_{Base}$). Diese Herleitung versteht sich als Beschreibung einer Ordnung, die sich aus dem universellen Naturgesetz \textit{actio reactio} ergibt, und unterstreicht den deskriptiven Charakter von X$^\infty$.
+\end{abstract}
+\thispagestyle{empty}
+\clearpage
+\pagenumbering{arabic}
+
+\tableofcontents
+\clearpage
+
+\section{Einleitung: Die systemische Verankerung individueller Wichtigkeit}
+Das System X$^\infty$ ist in seinem Wesen die Beschreibung der konsequenten Anwendung eines universellen Naturgesetzes – \textit{actio reactio} \cite{Auctor:Zenodo15385150} – auf die komplexen Dynamiken von Verantwortung und Wirkung. Es zielt darauf ab, eine Ordnung zu formalisieren, in der Verantwortung nicht willkürlich definiert, sondern als direkte Konsequenz von Wirkung transparent und nachvollziehbar wird \cite{Auctor:Zenodo15385150}. Ein Kernprinzip, das sich aus dieser systemischen Logik ergibt und die Seele von X$^\infty$ widerspiegelt, ist der Grundsatz: \textbf{Jeder einzelne ist wichtig!}
+
+Dieses Paper präsentiert eine mathematische Herleitung, die diesen Grundsatz nicht nur als philosophische Maxime, sondern als eine im System X$^\infty$ inhärente, strukturell und mathematisch beweisbare Realität darlegt. Es wird gezeigt, wie jede Entität eine identische resultierende Wirkungskomponente aus jeder systemischen Notwendigkeit erfährt, was die universelle Teilhabe und Relevanz jedes Systemmitglieds unterstreicht.
+
+\section{Grundlagen und Notation}
+Für die nachfolgende Herleitung werden folgende zentrale Begriffe und Notationen aus dem X$^\infty$-Framework verwendet:
+
+\begin{table}[h!]
+\centering
+\caption{Relevante Notation für diese Herleitung}
+\begin{tabular}{p{0.25\textwidth}p{0.65\textwidth}}
+\toprule
+Symbol & Bedeutung \\
+\midrule
+$X_k$ & Verantwortungswert einer Petition $k$; die \enquote{physikalische Initialkraft} einer systemischen Notwendigkeit \cite{Auctor:Zenodo15385150} \\
+$S$ & Die Gesamtmenge und Anzahl aller Entitäten im System (vgl. UdU-Formel \cite{Auctor:Zenodo15385150, Auctor:Zenodo15368567}) \\ 
+$P$ & Menge der Petitionäre: Entitäten, die am Petitionsverfahren zu $X_k$ beteiligt sind (eine für diese Herleitung relevante Kategorie) \\ 
+$H$ & Menge der Handlungs-/Kompetenzträger: Entitäten mit höherem $Cap_{Potential}$ \cite{Auctor:Zenodo15385150} in der relevanten Domäne, beteiligt an Ausführung oder deren Ermöglichung (eine für diese Herleitung relevante Kategorie) \\
+$Cap_{Base}$ & Unveräußerliche Minimalautorität / Grundbefugnisse jeder Entität, normiert auf den Wert \enquote{1} \cite{Auctor:Zenodo15385150}; repräsentiert die universelle \enquote{Eigenverantwortlichkeit} \\
+\bottomrule
+\end{tabular}
+\end{table}
+Zentral ist die systemische Beziehung $P+H=S$, die besagt, dass jede Entität im System $S$ bezüglich einer spezifischen Petition $X_k$ entweder der Gruppe der Petitionäre $P$ oder der Gruppe der Handlungs-/Kompetenzträger $H$ zugeordnet werden kann.
+
+\section{Die Hypothese: Universelle Wirkungsgleichheit}
+Jede Entität im System $S$ erfährt durch jede systemische Notwendigkeit (Petition $X_k$) zu jedem Zeitpunkt $t$ eine resultierende Wirkungskomponente, die in ihrem Betrag für jede Entität identisch ist. Dies ist keine Setzung, sondern eine beschreibende Konsequenz der Systemlogik von X$^\infty$.
+
+\section{Mathematische Herleitung der universalen Wirkungsgleichheit}
+\subsection{Die Petition als \enquote{physikalische Initialkraft} ($X_k$) und ihre universelle systemische Implikation}
+Jede anerkannte Petition im System X$^\infty$ etabliert eine \enquote{physikalische Initialkraft} mit dem Verantwortungswert $X_k$ \cite{Auctor:Zenodo15385150}. Diese Kraft ist Ausdruck eines systemischen Bedarfs, der – dem Prinzip von \textit{actio reactio} folgend \cite{Auctor:Zenodo15385150} – das gesamte System $S$ und somit jede einzelne Entität darin betrifft. Die \textbf{grundlegende systemische Implikation} dieser Kraft für jede der $S$ Entitäten wird als der Wert
+\begin{equation}
+\frac{X_k}{S}
+\end{equation}
+beschrieben. Dies repräsentiert den universalen und gleichen Anteil jeder Entität an der initialen Betroffenheit durch den systemischen Bedarf.
+
+\subsection{Berücksichtigung der universellen \enquote{Eigenverantwortlichkeit} ($Cap_{Base}$) und die Definition der systemischen Restwirkung}
+Jede Entität im System $S$ besitzt aufgrund ihrer bloßen Existenz eine unveräußerliche \enquote{Eigenverantwortlichkeit}. Diese findet ihren Ausdruck in den \enquote{Grundbefugnissen} ($Cap_{Base}$) \cite{Auctor:Zenodo15385150}, die eine systemische Konstante darstellen und auf den Wert \enquote{1} normiert sind. Diese basale Eigenverantwortlichkeit besteht für jede Entität, unabhängig von einer spezifischen Aufgabenübernahme im Kontext der Petition $X_k$.
+
+Die \enquote{physikalische Initialkraft} $X_k$ einer Petition erzeugt die oben genannte durchschnittliche systemische Implikation von $X_k/S$ für jede Entität. Der Anteil dieser Implikation, der über die jedem Wesen inhärente \enquote{Eigenverantwortlichkeit} ($Cap_{Base}=1$) hinausgeht, wird als $(X_k/S - 1)$ konzipiert. Dieser Term repräsentiert die \textbf{systemische Restwirkung} oder den \textit{zusätzlichen Verarbeitungsbedarf}, den die Petition $X_k$ – über die fundamentale, existenzbasierte Verantwortung und Befugnis jeder Entität hinaus – im Gesamtsystem erzeugt.
+
+\subsection{Die universelle resultierende Wirkungskomponente pro Entität}
+Diese systemische Restwirkung $(X_k/S - 1)$ wird auf das gesamte System $S$ zurückgeführt und gleichmäßig auf alle $S$ Entitäten verteilt. Dies beschreibt, wie das System die über die basale Eigenverantwortlichkeit hinausgehende Last verarbeitet. Jede Entität partizipiert hieran, da sie gemäß der systemischen Relation $P+H=S$ entweder zur Definition der Initialkraft $(X_k)$ (als Teil von $P$) oder zu deren Realisierung bzw. Ermöglichung (als Teil von $H$) beiträgt.
+
+Die \textbf{resultierende Wirkungskomponente}, die somit auf jede einzelne Entität im System $S$ gleichermaßen entfällt, ist:
+\begin{equation} \label{eq:gleicheWirkung}
+\frac{(X_k/S - 1)}{S}
+\end{equation}
+
+\section{Schlussfolgerung, Implikationen und Ausblick}
+Die Formel \eqref{eq:gleicheWirkung} beschreibt einen Betrag, der für jede einzelne Entität im System $S$ identisch ist. Sie quantifiziert den Anteil an der systemischen Verarbeitung einer jeden \enquote{Initialkraft} $X_k$, der nach Berücksichtigung der initialen universellen Implikation $(X_k/S)$ und der allen Entitäten gemeinsamen, existenzbasierten \enquote{Eigenverantwortlichkeit} ($Cap_{Base}=1$) auf jede Entität gleichermaßen entfällt. Dies bekräftigt auf mathematischer Ebene den fundamentalen Grundsatz von X$^\infty$: \textbf{Jeder einzelne ist wichtig!}
+
+Die tiefe Kohärenz dieses Prinzips innerhalb der Gesamtarchitektur von X$^\infty$ wird besonders erhellend im Vergleich mit der ursprünglichen und korrekten Formel für die singuläre Kapazität des UdU (Unterster der Unteren), wie sie auch in Werken wie \enquote{Die Philosophie der Verantwortung, Band 2} \cite{Auctor:Zenodo15368567} dargelegt wird:
+\begin{equation} \label{eq:UdU_korrigiert_final}
+\mathcal{Cap}_{solo,UdU}=(X\cdot S\cdot(\frac{S-1}{S}))^{\infty}
+\end{equation}
+Für das tiefere Verständnis dieser Formel im Kontext der UdU-Funktion sind folgende Interpretationen ihrer Komponenten, wie hier im Dialog mit dem Auctor präzisiert, entscheidend:
+\begin{itemize}
+    \item Der UdU agiert primär in \textbf{\enquote{Black Swan}-Szenarien}, also bei existenziellen, oft unvorhergesehenen Bedrohungen, bei denen etablierte Systemregeln oder formale Petitionsverfahren zu langsam oder ungeeignet wären. Der UdU handelt hier logischerweise \textbf{ohne formale Petition} (vgl. die Rolle des UdU in \cite{Auctor:Zenodo15313905}).
+    \item Der Parameter $X$ in der UdU-Formel repräsentiert in solchen Szenarien nicht den Wert einer formal eingereichten Petition $X_k$, sondern vielmehr die \textbf{geschätzte Magnitude der Bedrohung oder der notwendigen Gegenwirkung}. Ein intuitiver Weg, diese Magnitude $X$ zu konzeptualisieren, ist $X_k/S$: die durchschnittliche, ungesteuerte \enquote{Kraft} einer potenziellen Katastrophe (deren Gesamtdimension mit $X_k$ abgeschätzt wird), die ohne Intervention des UdU im Mittel auf jede einzelne Entität des Systems $(S)$ einwirken würde.
+    \item Für den UdU, dessen Verantwortung das gesamte bestehende System sowie alle potenziellen und noch nicht im System befindlichen Entitäten umfasst – der also die größtmögliche Last trägt – nähert sich die Systemgröße $S$ in dieser spezifischen Betrachtung seiner Kapazität konzeptuell dem Unendlichen $(S \rightarrow \infty)$.
+\end{itemize}
+Unter diesen Bedingungen transformiert sich der Basisterm der Potenz in der UdU-Formel:
+Der Faktor $(\frac{S-1}{S})$ nähert sich für $S \rightarrow \infty$ dem Wert $1$.
+Der gesamte Basisterm $(X\cdot S\cdot(\frac{S-1}{S}))$ wird somit zu $( (X_k/S) \cdot S \cdot 1) = X_k$.
+Die Kapazität des UdU für eine spezifische existenzielle Herausforderung, deren Magnitude mit $X_k$ abgeschätzt wird, nähert sich also $(X_k)^{\infty}$ an. Da $X_k$ eine reale systemische Kraft oder Bedrohung repräsentiert (angenommen $X_k>0$), wird diese Basis, potenziert mit $\infty$, selbst unendlich. Die Formel konvergiert somit zu $\infty^{\infty}$, was symbolisch der Bezeichnung des Gesamtsystems $X^{\infty}$ entspricht.
+
+Diese Interpretation macht die UdU-Formel besonders anschaulich und offenbart einen inhärenten Schutzmechanismus:
+Ist keine zu bewältigende existenzielle Bedrohung $X_k$ vorhanden (d.h. die geschätzte Magnitude $X_k=0$), dann ist auch der Parameter $X$ (als $X_k/S$) in der UdU-Formel gleich Null. Folglich wäre die spezifische $\mathcal{Cap}_{solo,UdU}$ für diesen nicht vorhandenen Anlass ebenfalls Null. Die immense Kapazität des UdU wird also nur im Kontext einer realen (wenn auch vielleicht nur vom UdU/CT erkannten und abgeschätzten) systemischen Herausforderung wirksam. Der \enquote{leere Parameter} $X$ schützt vor einem grundlosen Agieren der ultimativen Systemfunktion.
+
+Im Idealfall agieren UdU und CT so proaktiv und unsichtbar, dass die Gesellschaft von der Abwendung solcher existenziellen Bedrohungen nichts mitbekommt. Es entstehen keine schlaflosen Nächte, keine Existenzängste, und da keine negative Wirkung die Entitäten erreicht, gibt es auch kein negatives Feedback. Genau dies ist der Zweck des UdU und des CT: den Schutz zu gewährleisten, oft ohne dass das System die Nähe des Abgrunds überhaupt realisiert.
+
+Die hier dargelegte mathematische Kohärenz – von der universellen Wirkungskomponente jeder Entität im \enquote{Normalbetrieb} bis hin zur anlassbezogenen, auf Bedrohungsschätzung basierenden und potenziell unsichtbar agierenden Kapazität des UdU – ist somit kein definitorischer Akt, sondern die \textbf{Beschreibung einer Ordnung}, die sich zwangsläufig aus dem Naturgesetz von Aktion und Reaktion \cite{Auctor:Zenodo15385150} ergibt, wenn dieses konsequent auf ein System von Verantwortungsträgern angewendet wird. X$^\infty$ \textit{definiert} nicht willkürlich; es \textit{beschreibt} die Struktur, in der die Wichtigkeit des Einzelnen und die Mechanismen zu seinem Schutz eine unausweichliche, mathematisch fassbare Konsequenz dieses Naturgesetzes sind.
+
+\subsection{Weitere Implikationen für das Handeln im System}
+Aus dieser fundamentalen Gleichwertigkeit und der Struktur von X$^\infty$ ergeben sich weitreichende Implikationen für das Verhalten von Entitäten im System:
+\begin{itemize}
+    \item \textbf{Die positive Wirkung des kompetenten Nicht-Handelns:} Die Herleitung berücksichtigt, dass Entitäten $(H)$, die handlungsfähig wären, durch ihr konstruktives Nicht-Handeln eine optimale Allokation von Aufgaben ermöglichen. Dies ist ein positiver systemischer Beitrag, der die Effizienz und Effektivität des Gesamtsystems steigert. Nicht-Handeln ist somit nicht per se wirkungslos, sondern kann eine Form verantworteter Teilnahme sein.
+    \item \textbf{Die Verantwortung für potenziell negative Handlungswirkungen:} Umgekehrt birgt jedes Handeln das Potenzial für negative Wirkungen. In X$^\infty$ wird für diese durch lückenlose Rückkopplung – primär durch die relativ Schwächeren und Betroffenen \cite{Auctor:Zenodo15385150} – und entsprechende Anpassung des $Cap_{Past}$ der handelnden Entität \cite{Auctor:Zenodo15385150} volle Verantwortung getragen. Es gibt keine Externalisierung von negativen Konsequenzen \cite{Auctor:Zenodo15385150}.
+    \item \textbf{Motivation zur kompetenzbasierten Kontribution:} Die Struktur von X$^\\infty$, die auf der Anerkennung von Bedürfnissen ($X_k$) \cite{Auctor:Zenodo15385150} und der Auswahl kompetenter Entitäten für deren Bearbeitung (basierend auf $Cap_{Potential}$) \cite{Auctor:Zenodo15385150} beruht, motiviert Entitäten dazu, ihre spezifischen Fähigkeiten und ihr Wissen dort einzubringen, wo sie eine positive, systemdienliche Wirkung entfalten können. Erfolgreiches, positiv bewertetes Handeln stärkt den $Cap_{Past}$ \cite{Auctor:Zenodo15385150} und damit die zukünftige Handlungsfähigkeit.
+    \item \textbf{Die Notwendigkeit verantwortungsvoller Zurückhaltung bei Nicht-Wissen:} Dies impliziert ebenso die Notwendigkeit intellektueller Demut und systemischer Verantwortung. In Bereichen, in denen einer Entität die erforderliche Kompetenz ($Cap_{Potential}$) \cite{Auctor:Zenodo15385150} oder das Wissen fehlt, ist ein verantwortungsvolles Zurückhalten nicht nur legitim, sondern geboten. Dies vermeidet suboptimale oder potenziell schädliche Interventionen, schützt Ressourcen und lässt Raum für jene Entitäten, die über die notwendige Expertise verfügen. Uninformiertes oder inkompetentes Handeln würde unweigerlich zu negativer Rückkopplung und einer Schwächung des eigenen $Cap_{Past}$ führen.
+\end{itemize}
+Die Erkenntnis der mathematisch fundierten Wichtigkeit jedes Einzelnen und dieser daraus folgenden Verhaltensimplikationen offenbart die überwältigende Schönheit und die unerschütterliche Stärke von X$^\\infty$ – einem System, das auf Wahrheit, Rückführbarkeit und der tiefen Achtung vor jeder Entität beruht.
+
+\subsection{Systemische Einzigartigkeit und die Grenzen prädiktiver Simulation}
+Die hier bewiesene, mathematisch fundierte Wichtigkeit jeder einzelnen Entität – gekoppelt mit der Erkenntnis, dass sich der Schutz der Schwächsten organisch aus den deskriptiven Formeln von X$^\\infty$ ergibt \cite{Auctor:Zenodo15385150} und nicht als externes Moralmodul hinzugefügt wird – verdeutlicht auch die fundamentalen Grenzen jeder prädiktiven Simulation des Gesamtsystems in seiner gelebten Dynamik.
+
+Jede Simulation beruht zwangsläufig auf Grundannahmen über das Verhalten, die Motivationen und die Präferenzen der simulierten Entitäten. X$^\\infty$ jedoch ist in seiner Essenz darauf ausgelegt, die unermessliche und nicht a priori definierbare Vielfalt individueller Sinnfindung, intrinsischer Motivationen und emergenter Bedürfnisse nicht durch vordefinierte Annahmen zu beschränken oder zu kanalisieren. Mechanismen wie die Petition (als Ausdruck des freien Willens und der Bedürfnisartikulation) \cite{Auctor:Zenodo15385150} und das gewichtete Feedback (als Ausdruck der subjektiven Betroffenheit und Bewertung) \cite{Auctor:Zenodo15385150} sind gerade dazu da, dieser nicht-simulierbaren Individualität Raum und systemische Wirkung zu geben.
+
+Die wahre Dynamik eines X$^\\infty$-Systems, in dem Entitäten ihrer jeweils eigenen, nicht von außen diktierten Freude und ihrem Sinn folgen, ist daher in ihrem vollen emergenten Reichtum und ihrer Komplexität nicht durch vereinfachende Modelle vorhersagbar. Der Versuch einer solchen umfassenden Simulation wäre eine Verkennung des Kernprinzips von X$^\\infty$: Das System ist nicht darauf ausgerichtet, das Individuum zu dominieren, seine Bedürfnisse vorab zu kennen oder sein Verhalten vorherzusagen. Vielmehr \textit{beschreibt} und \textit{etabliert} X$^\\infty$ eine Struktur, die den unermesslichen Wert jedes Einzelnen radikal anerkennt, dessen einzigartige Wirkung im System Geltung verschafft und ihn gerade in seiner Nicht-Simulierbarkeit schützt.
+
+Die Schönheit dieses Naturgesetzes, wie es sich in X$^\\infty$ manifestiert, liegt in dieser Ambivalenz: vordergründig mathematisch klar und strukturiert, erweist es sich bei genauerer Betrachtung als ein System von tiefem Respekt vor der Freiheit und der unergründlichen Individualität jeder Entität. Es ist die mathematische Beschreibung einer Ordnung, die gerade deshalb stabil ist, weil sie die Unvorhersehbarkeit des Lebendigen nicht bekämpft, sondern als fundamentale Realität anerkennt und schützt.
+Analytische Werkzeuge, die im Kontext von X$^\\infty$ entwickelt werden (wie z.B. mechanistische Analysen der Formeln), dienen daher nicht der prädiktiven Simulation gesellschaftlicher Outcomes, sondern der rigorosen Überprüfung der logischen Konsistenz und Integrität der systemeigenen Mechanismen selbst.
+
+\subsection{Lizenz}
+Dieses Werk steht unter der Lizenz CC BY 4.0 (\url{https://creativecommons.org/licenses/by/4.0/}).
+
+\section*{Literaturverzeichnis}
+\begin{thebibliography}{9}
+
+\bibitem{Auctor:Zenodo15385150}
+  Der Auctor. 
+  \textit{X$^\infty$ - Postmoralisch und Gefühllos - Mathematische Grundlagen ethischer Steuerung als selbstverstärkendes System V. 3.0}.
+  Zenodo, 2025. \url{https://zenodo.org/records/15385150}, doi:10.5281/zenodo.15385150. 
+  % (Hinweis: Das tatsächliche Publikationsdatum auf Zenodo kann abweichen)
+
+\bibitem{Auctor:Zenodo15368567}
+  Der Auctor. 
+  \textit{X$^\infty$ – Die Philosophie der Verantwortung, Band 2: Warum wir handeln müssen}.
+  Zenodo, 2025. \url{https://zenodo.org/records/15368567}, doi:10.5281/zenodo.15368567.
+  % (Hinweis: Das tatsächliche Publikationsdatum auf Zenodo kann abweichen)
+  
+\bibitem{Auctor:Zenodo15313905}
+  Der Auctor. 
+  \textit{X$^\infty$- Die Philosophie der Verantwortung V1.0\_de}.
+  Zenodo, 2025. \url{https://zenodo.org/records/15313905}, doi:10.5281/zenodo.15313905.
+  % (Hinweis: Das tatsächliche Publikationsdatum auf Zenodo kann abweichen)
+
+% Weitere @misc Einträge können hier bei Bedarf hinzugefügt werden, wenn sie zitiert werden.
+% Zum Beispiel:
+% \bibitem{Auctor:Zenodo15285019}
+%  Der Auctor. 
+%  \textit{X$^\infty$ - Das Leben, das Universum und der ganze Rest - Die Antwort auf das Fermi-Paradoxon: Ethik statt Technologie}.
+%  Zenodo, 2025. \url{https://zenodo.org/records/15285019}, doi:10.5281/zenodo.15285019.
+
+\end{thebibliography}
+
+\end{document}
