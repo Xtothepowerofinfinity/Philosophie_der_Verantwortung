@@ -46,6 +46,7 @@ X^∞ is a containment and legitimacy framework for AGI:
 📧 x_to_the_power_of_infinity@protonmail.com  
 🌐 [https://mastodon.social/@The_Auctor](https://mastodon.social/@The_Auctor)
  🜄 https://zenodo.org/communities/xtothepowerofinfinity/
+
 ## 🜄 License and Use
 
 Free to use, translate, and distribute under ethical context and attribution to *Der Auctor*.  
