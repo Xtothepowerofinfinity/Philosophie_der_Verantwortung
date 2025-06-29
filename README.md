@@ -1,3 +1,5 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Xtothepowerofinfinity/Philosophie_der_Verantwortung)
+
 # X^∞ – The Philosophy of Accountability
 
 **Repository:** [Xtothepowerofinfinity/Philosophie_der_Verantwortung](https://github.com/Xtothepowerofinfinity/Philosophie_der_Verantwortung)
