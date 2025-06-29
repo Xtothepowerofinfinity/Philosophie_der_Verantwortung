@@ -45,6 +45,7 @@ X^∞ is a containment and legitimacy framework for AGI:
 **Der Auctor**  
 📧 x_to_the_power_of_infinity@protonmail.com  
 🌐 [https://mastodon.social/@The_Auctor](https://mastodon.social/@The_Auctor)
+ 
  🜄 https://zenodo.org/communities/xtothepowerofinfinity/
 
 ## 🜄 License and Use
@@ -102,6 +103,7 @@ X^∞ ist ein Architekturrahmen für KI-Integrität:
 **Der Auctor**  
 📧 x_to_the_power_of_infinity@protonmail.com  
 🌐 [https://mastodon.social/@The_Auctor](https://mastodon.social/@The_Auctor)
+ 
  🜄 https://zenodo.org/communities/xtothepowerofinfinity/
  
 ## 🜄 Lizenz und Nutzung
