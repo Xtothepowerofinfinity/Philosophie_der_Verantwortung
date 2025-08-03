@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4bb78686-64bd-429e-9d9f-140b737ee76a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2zCyXgrqCkyYTf178cRg5wOe2BU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.zencoder-patch-add-chat-message-raw-content": "true",
+    "RunOnceActivity.zencoder-patch-chat-storage-migration": "true",
+    "RunOnceActivity.zencoder-patch-generate-chat-message-id": "true",
+    "RunOnceActivity.zencoder-patch-migrate-custom-instruction": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/sasch/OneDrive/Dokumente/XInfty/Philosophie_der_Verantwortung",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-PY-251.26094.141" />
+        <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bb78686-64bd-429e-9d9f-140b737ee76a" name="Changes" comment="" />
+      <created>1751249392322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751249392322</updated>
+      <workItem from="1751249396217" duration="524000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="ai.zencoder.plugin.mcp">
+    <option name="internalToolsState" value="{&quot;file_search&quot;:true,&quot;fulltext_search&quot;:true}" />
+  </component>
+  <component name="ai.zencoder.plugin.rag.settings">
+    <option name="desiredChunkSizeBytes" value="4194304" />
+    <option name="forbiddenExtensions">
+      <set>
+        <option value=".log,.lock,.svg" />
+      </set>
+    </option>
+    <option name="pollingIntervalMs" value="60000" />
+    <option name="projectInfoUpdateThresholdPercentage" value="101" />
+    <option name="repoIndexingIntervalMs" value="300000" />
+  </component>
+  <component name="ai.zencoder.plugin.rag.state">
+    <option name="lastCommitHash" value="363b0915fe4afeab224e94c7f9d1bc6c8d94353c" />
+    <option name="lastIndexTimestamp" value="1751249762261" />
+    <option name="repoAccumulatedChanges" value="114" />
+    <option name="repoTotalFiles" value="114" />
+    <option name="repositoryId" value="c820d76a-24d7-41ee-be01-be881dfefd3e" />
+    <option name="state" value="FULLY_INDEXED" />
+  </component>
+</project>
