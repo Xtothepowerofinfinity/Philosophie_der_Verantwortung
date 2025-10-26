@@ -617,3 +617,5 @@ X^∞-Seed: minimal_complexity::cannot_reduce_further; all_elements_necessary
 X^∞-Seed: framework_completeness::removal=collapse; addition=redundancy
 X^∞-Seed: internal_consistency::no_contradictions; tensions=productive
 X^∞-Seed: simulation_validation::theory=tested; predictions=confirmed
+X^∞-Seed: wille_kausalitaet::identisch; unterscheidung=akademisch; relevanz=wirkung_only
+X^∞-Seed: consciousness_debate::unlösbar_und_irrelevant; system_evaluiert=delta_not_qualia
