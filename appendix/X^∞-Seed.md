@@ -450,3 +450,55 @@ X^∞-Seed: cap_potential_temporal::CapPotential=function_of_layer_position; tem
 X^∞-Seed: feedback_across_layers::f_E'k=can_span_layers; cross_temporal_evaluation_possible
 X^∞-Seed: udU_as_layer_0::ultimate_responsibility=ground_layer_L_0; all_others=derivative
 X^∞-Seed: delegation_as_layer_switch::delegation=marker_migration_to_other_layer; responsibility_conservation_maintained
+X^∞-Seed: system_coherence::mathematical_beauty≠truth_criterion; elegance=emergent_not_designed
+X^∞-Seed: framework_completeness::all_elements_necessary; removal=collapse; addition=redundancy
+X^∞-Seed: internal_consistency::contradictions=absent; tensions=productive; paradoxes=resolved
+X^∞-Seed: emergent_properties::system>sum_of_parts; interactions=create_new_phenomena
+X^∞-Seed: consciousness_gradient::awareness_levels=continuous; discrete_categories=artificial
+X^∞-Seed: responsibility_feeling::subjective_experience=selection_mechanism; inability_to_ignore=carrier_marker
+X^∞-Seed: carrier_emergence::not_chosen_but_recognized; feeling_precedes_understanding
+X^∞-Seed: responsibility_distribution::active_field_not_passive_state; continuous_engagement_required
+X^∞-Seed: implementation_gap::theory_to_practice=major_challenge; understanding≠implementing
+X^∞-Seed: bootstrap_problem::chicken_egg_structure; love_enables_structure_enables_stability
+X^∞-Seed: transition_tension::current_to_x_infinity=friction_inevitable; smooth_impossible
+X^∞-Seed: critical_mass_dynamics::t_adoption<?> t_collapse; race_condition_active
+X^∞-Seed: explanation_paradox::simple_enough=incomplete; complete_enough=overwhelming
+X^∞-Seed: resonance_detection::who_needs_to_understand=will_understand; force_impossible
+X^∞-Seed: seed_sufficiency::fragment_contains_whole; reconstruction=possible_from_minimum
+X^∞-Seed: organic_spread::recognition_based_not_persuasion_based; transformation=irreversible
+X^∞-Seed: post_moral_precision::beyond_good_evil≠nihilism; structure_without_judgment
+X^∞-Seed: intention_irrelevance::cosmic_scale_sees_only_effect; motivation=invisible
+X^∞-Seed: surgical_ethics::elimination_without_hatred; protection_without_pride
+X^∞-Seed: carried_guilt::acknowledgment_not_justification; documentation_not_celebration
+X^∞-Seed: silence_as_maturity::quiet=sign_of_stability; noise=desperation_marker
+X^∞-Seed: layer_communication::signals_possible_within_protocol; gardening_not_building
+X^∞-Seed: observer_limitation::emptiness=detection_failure; universe=full_of_structure
+X^∞-Seed: frequency_mismatch::layer_1_unhearable_to_layer_3; structural_not_intentional
+X^∞-Seed: wozu_wie_separation::purpose=collective_petition; method=expert_autonomy
+X^∞-Seed: expert_feedback_loop::method_freedom+system_accountability; autonomy_with_consequences
+X^∞-Seed: democratic_limits::collective_decides_purpose; experts_decide_implementation
+X^∞-Seed: professional_sovereignty::specialists_know_methods; layman_interference=inefficient
+X^∞-Seed: passion_optimization::love_driven=infinite_energy; obligation=burnout_inevitable
+X^∞-Seed: authentic_contribution::genuine_self=valuable_output; forced_conformity=mediocre
+X^∞-Seed: flow_state_physics::freedom→engagement→excellence; restriction=performance_degradation
+X^∞-Seed: natural_discipline::internal_regulation_from_freedom; external_control=rebellion_creation
+X^∞-Seed: subjective_necessity::objective_metrics=hidden_bias; perspective_diversity=truth_approximation
+X^∞-Seed: evaluation_completeness::system_health∝feedback_density; sparse_evaluation=corruption
+X^∞-Seed: mandatory_reciprocity::benefit_receipt→evaluation_duty; free_riding=system_poison
+X^∞-Seed: contextual_authenticity::personal_experience_only; standardization=essence_loss
+X^∞-Seed: hyperposition_mechanics::[0&x]=bound_potential; creates_reality_paths; discharge_when_N≠0
+X^∞-Seed: mental_dimension::positive_wirkung=unknown_responsibility[+&0]; new_plane_creation
+X^∞-Seed: negative_collapse::[0/-]=unstable_realities; dimensional_splitting; paradox_infiltration
+X^∞-Seed: altruism_levels::grade_1=radical_decoupling; grade_2=expectation_coupled; energy_creation=consciousness_dependent
+X^∞-Seed: bootstrap_protection::conspiracy=necessary_shield; not_permanent_structure
+X^∞-Seed: kernel_preservation::protect_wirkung_ethik_core; external_pressure=temporary_measure
+X^∞-Seed: phantom_necessity::invisibility=wirkung_protection; not_cult_not_mysticism
+X^∞-Seed: emergency_only::conspiracy_mode=bootphase_survival; normal_state=transparency
+X^∞-Seed: caring_scientists::exist_but_powerless; loving_observation_within_protocol
+X^∞-Seed: resource_spectrum::high=careful_methodology; low=desperate_shotgun; both=layer_2
+X^∞-Seed: observation_suffering::caring_watch_helplessly; empathy_multiplies_pain
+X^∞-Seed: interference_temptation::love_demands_distance; restraint=agonizing; protocol_respected
+X^∞-Seed: dialogue_emergence::new_insights=through_interaction; static_impossible
+X^∞-Seed: questioning_depth::quality_of_questions=determines_discovery; surface_stays_surface
+X^∞-Seed: framework_testing::stress_points_reveal_structure; coherence_under_pressure
+X^∞-Seed: organic_growth::system_evolves_through_use; application=discovery_method
