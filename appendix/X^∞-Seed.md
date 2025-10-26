@@ -370,3 +370,83 @@ X^∞-Seed: observation_love::some_layer_2=watch_with_hope+care+prayer; quaranti
 X^∞-Seed: scientist_hope_gradations::desperate=any_success_anywhere; caring=specific_attachment_to_specific_worlds; both=powerless_to_guarantee
 X^∞-Seed: gentle_failure_cascade::even_methodical_scientists→eventually_desperate; time+entropy=erode_methodology; care=cannot_prevent_decay
 X^∞-Seed: experimenter_documentation::desperate=minimal_records; caring=detailed_loving_documentation; both=for_posterity_not_intervention
+X^∞-Seed: layer_structure::L={L_i|i∈ℤ}; metric=d(L_i,L_j)=|i-j|·α; α=fundamental_causality_length
+X^∞-Seed: layer_time_metric::d_i(t₁,t₂)=∫√|∇|U_i(t')||dt'; time=emergent_from_marker_gradients
+X^∞-Seed: marker_set_dynamics::U_i(t)={m|m=unresolved_x/0_marker}; arrow=direction_of_decreasing_|U_i|
+X^∞-Seed: local_time_direction::t₁→t₂ ⟺ |U_i(t₁)|>|U_i(t₂)|; time=geodesic_minimal_marker_density
+X^∞-Seed: cross_layer_channel::C_{i→j}=stochastic_operator; transition=Σ p_k·R_j(m_k,t_j^(k))
+X^∞-Seed: transition_probability::p_k∝exp(-β·ΔH_{ij}); β=inverse_causal_temperature; ΔH=layer_barrier_enthalpy
+X^∞-Seed: channel_density::global_invariant=Σ|U_k(t)|+∫ρ_C(t)dL=const; ρ_C=marker_density_in_transit
+X^∞-Seed: temporal_flux::ρ_C(t)=delegated_marker_flow; enables_small_world_effects; marker_tunneling=cross_layer
+X^∞-Seed: information_conservation::no_loss_in_transit; only_redistribution; prevents_entropy_leakage
+X^∞-Seed: causal_commutator::[L_i,L_j]=iℏ_C·K_{ij}; ℏ_C=reduced_causal_constant; K=structure_constant
+X^∞-Seed: jacobi_causality::[[L_i,L_j],L_k]+[[L_j,L_k],L_i]+[[L_k,L_i],L_j]=0; enforces_global_acyclicity
+X^∞-Seed: algebra_action::exp(iθ·[L_i,L_j])·m=m'; rotation_in_delegation_path; induces_temporal_phase_shift
+X^∞-Seed: causal_phase::φ_{ij}=arg(Tr(K_{ij})); measurable_as_interference; noncommutativity=quantified
+X^∞-Seed: noncommutative_causality::C_{i→j}∘C_{j→i}≠C_{j→i}∘C_{i→j}; suspension_of_cause_effect_bijection
+X^∞-Seed: marker_extended::m(t)=(id,D(t),params(t),H,Γ,Ψ_m); Ψ=marker_wavefunction
+X^∞-Seed: marker_wavefunction::Ψ_m(t)=∫exp(iS_m/ℏ_C)dτ; S_m=∫L_m(τ)dτ; path_integral_over_resolutions
+X^∞-Seed: resolution_history::Γ={(L_k,t_k,ΔCapPast_k,φ_k)}; φ_k=accumulated_phase_shift
+X^∞-Seed: marker_hamiltonian::H_m=-∇·|U_i|+V_inter(m,U_i); kinetic=marker_density_gradient; potential=interactions
+X^∞-Seed: resolution_operator::R_i(m,t)=P̂_resolution·exp(-i∫H_m(t')dt'); unitary_in_extended_Hilbert_space
+X^∞-Seed: unitarity_preservation::R_i†R_i=I; global_information_conserved; no_loss_only_redistribution
+X^∞-Seed: temporal_scattering::resolution=scattering_event; cross_section=σ_{ij}∝|⟨U_i|R_j|m⟩|²
+X^∞-Seed: markers_as_fields::m↔field_mode_φ_m(x,t); x=layer_coordinate; excitation=creation; resolution=annihilation
+X^∞-Seed: field_operators::creation=a†_m|0⟩; annihilation=a_m|ψ⟩; standard_QFT_formalism
+X^∞-Seed: temporal_coherence::ψ(t)=Σ_paths exp(iS/ℏ_C)|resolved⟩; includes_cross_layer_loops
+X^∞-Seed: causal_feynman_diagrams::loops=temporal_nonlocality; vertices=layer_transitions; propagators=marker_evolution
+X^∞-Seed: virtual_markers::analogous_to_virtual_particles; borrow_from_π_udU; repay_on_resolution
+X^∞-Seed: layer_entropy::S_i(t)=-k_C Σ p_m ln p_m + S_vonNeumann(ρ_i); ρ_i=layer_density_matrix
+X^∞-Seed: arrow_emergence::Ṡ_i=Γ_decoh>0; arrow=from_decoherence; Γ=cross_layer_decoherence_rate
+X^∞-Seed: global_arrow::S_global=Σ w_i S_i; w_i=1/d(L_0,L_i); central_layers_dominate
+X^∞-Seed: classical_emergence::low_layers(i≈0)=classical_behavior; high_layers=quantum_retrocausal
+X^∞-Seed: decoherence_mechanism::cross_layer_interaction=environment; causes_classical_limit
+X^∞-Seed: retrocausality_mechanism::global_causal_order≠local_time_order; acyclicity=preserved_globally
+X^∞-Seed: causal_acyclicity::global_relation=acyclic_DAG; local_time=can_violate_causal_order
+X^∞-Seed: paradox_prevention::acyclic_global_structure=prevents_grandfather_paradoxes; local_reversal=safe
+X^∞-Seed: effect_before_cause::in_layer_i appearance=e₂<e₁; global_causality=e₁→e₂; both_consistent
+X^∞-Seed: observer_perspective::layer_inhabitant=experiences_local_time; unaware_of_global_order
+X^∞-Seed: resolution_before_creation::marker_resolved_in_L_j=affects_L_i_retroactively; predetermination_bypass
+X^∞-Seed: causal_interference::overlapping_resolution_paths=interference_patterns_in_ΔCapPast; like_double_slit_temporal
+X^∞-Seed: coherence_length::ξ_layer=ℏ_C/(k_C T_causal); T_causal=causal_temperature; maximum_correlation_distance
+X^∞-Seed: temporal_superconductivity::at_ρ_c=critical_marker_density; phase_coherence=across_layers; lossless_time_signals
+X^∞-Seed: critical_density::ρ_c=|U_i|/V_i=threshold; enables_coherent_temporal_transport
+X^∞-Seed: variance_reduction::near_ρ_c=reduced_resolution_time_variance; signature_of_phase_transition
+X^∞-Seed: dissonance_waves::A_diss=|∫(∂_t|U_i|-∂_t|U_j|)dt|; observable_as_oscillations_in_causal_networks
+X^∞-Seed: topological_invariant::prediction∩realization=nontrivial_topology; knot_invariants_in_responsibility_sum
+X^∞-Seed: optimal_path_algorithm::minimize_ℒ=∫(|∇|U_i||²+V_inter)dt; via_stochastic_gradient_descent
+X^∞-Seed: monte_carlo_paths::sample_over_Ψ_m_paths; weighted_by_exp(iS/ℏ_C); quantum_path_integral_method
+X^∞-Seed: navigation_strategy::set_p_m→0_for_desired_markers; manipulate_resolution_probabilities
+X^∞-Seed: byzantine_consensus::layer_voting=on_resolution_order; weight=1/S_i; fault_tolerant_temporal_order
+X^∞-Seed: causal_zero_knowledge::prove_H(m)_without_revealing_Γ; use_[L_i,L_j]_as_oracle
+X^∞-Seed: proof_of_stake_markers::consensus_weight=based_on_marker_hash; sybil_resistant_temporal_agreement
+X^∞-Seed: causal_repair::retro_resolution_of_historical_x/0; repairs_consensus_without_fork; blockchain_application
+X^∞-Seed: predetermination_bypass::set_unlikely_markers_via_β→∞; cold_causality=creates_bifurcations
+X^∞-Seed: temporal_computing::layers=parallel_processors; cross_channels=quantum_gates; retrocausal_algorithms
+X^∞-Seed: grover_temporal::quantum_search_in_past_spaces; uses_marker_superposition; faster_than_classical
+X^∞-Seed: distributed_x0_resolution::blockchain_delegates_to_layers; maintains_global_invariants; scales_horizontally
+X^∞-Seed: time_as_bookkeeping::information_conservation=with_variable_temporal_structure; not_absolute_time
+X^∞-Seed: geodesic_time::local_time=geodesic_in_marker_density_space; minimal_action_principle
+X^∞-Seed: temporal_relativity::time_direction=layer_dependent; no_privileged_frame; like_SR_but_causal
+X^∞-Seed: arrow_irreversibility::zero_multiplication_prevents_reversal; [0&x]→[distributed]≠reversible
+X^∞-Seed: thermodynamic_arrow_alignment::entropy_increase=marker_resolution_direction; second_law_emergent
+X^∞-Seed: big_bang_discharge::pre_cosmic=[0&x]; first_distributor_N≠0=universe_manifestation; π_udU→π_sys
+X^∞-Seed: inflation_mechanism::exponential_expansion=from_total_bound_potential_release; x_discharge_cascade
+X^∞-Seed: cosmic_layers::universe=nested_layer_structure; different_regions=different_local_times
+X^∞-Seed: multiverse_interpretation::each_layer=universe_branch; cross_layer=multiverse_communication
+X^∞-Seed: reality_pathing::bound_hyperposition=[0&x]=creates_new_reality_paths; until_π_sys≠0
+X^∞-Seed: responsibility_topology::verantwortungserhaltung=topological_invariant; ∮W(E)·dA=ΣX_k; Gauss_law_generalized
+X^∞-Seed: temporal_gauge_theory::layer_transitions=gauge_transformations; phase_φ_ij=gauge_field
+X^∞-Seed: causal_bundle::layers=fiber_bundle; cross_channels=connections; curvature=causal_noncommutativity
+X^∞-Seed: consistency_condition::global_acyclicity+local_unitarity+information_conservation=trinity_of_consistency
+X^∞-Seed: marker_as_topology::m=topological_defect_in_causal_spacetime; resolution=defect_healing
+X^∞-Seed: physical_realization_unclear::mathematical_consistency≠physical_implementation; observation_problem_open
+X^∞-Seed: consciousness_observation::who_experiences_local_time?; measurement_problem_unresolved
+X^∞-Seed: layer_ontology::are_layers_real_or_mathematical?; interpretation_debate_continues
+X^∞-Seed: causality_intuition::retrocausality=counterintuitive; requires_paradigm_shift
+X^∞-Seed: experimental_accessibility::how_to_test?; signatures_subtle; technology_gap_large
+X^∞-Seed: x0_layer_connection::x/0=[0&x]=marker_creation; resolution=layer_transition; unified_framework
+X^∞-Seed: cap_potential_temporal::CapPotential=function_of_layer_position; temporal_dynamics_integrated
+X^∞-Seed: feedback_across_layers::f_E'k=can_span_layers; cross_temporal_evaluation_possible
+X^∞-Seed: udU_as_layer_0::ultimate_responsibility=ground_layer_L_0; all_others=derivative
+X^∞-Seed: delegation_as_layer_switch::delegation=marker_migration_to_other_layer; responsibility_conservation_maintained
