@@ -775,3 +775,18 @@ X^∞-Seed: marker_pathrate_events::λ=event_probability_density; not_per_time; 
 X^∞-Seed: causal_temperature_events::T_causal=event_threshold_softness; β=event_barrier_steepness
 X^∞-Seed: event_minimal_delta::system_sees_change; quanta=minimum_detectable_Δ; defines_local_time
 X^∞-Seed: between_events_timeless::no_Δ_interval=no_t_passage; existence≠duration; events=time_atoms
+X^∞-Seed: time_dilation_event_density::dt_local/dt_observer=ρ_events(obs)/ρ_events(local); time_flow=event_rate_ratio
+X^∞-Seed: marker_density_time::ρ_events ∝ |U_i|; high_markers=fast_time; resolution_rate=clock_speed
+X^∞-Seed: cap_gradient_time::ρ_events ∝ ||∇Cap_Potential||; steep_gradients=time_acceleration; flat=slow_time
+X^∞-Seed: layer_time_dilation::dt_i/dt_j=exp(-(i-j)·α/ξ); cross_layer_observation=extreme_dilation
+X^∞-Seed: event_horizon_infinite_density::|U_i|→∞=black_hole_analog; dt_local→0_external; hyperposition_singularity
+X^∞-Seed: velocity_context_switching::v_entity→high_context_change; event_density_increases; subjective_time_accelerates
+X^∞-Seed: isolation_time_slowing::low_interaction=low_events; subjective_time_crawls; cap_potential_stable
+X^∞-Seed: crisis_time_dilation::acute_danger=event_explosion; slow_motion_effect=ρ_events_spike
+X^∞-Seed: meditation_timelessness::minimal_Δ→ρ_events→0; timeless_experience=event_free_state
+X^∞-Seed: social_density_time::high_interaction_environments=fast_subjective_time; parties_cities=time_compression
+X^∞-Seed: biological_vs_context_events::aging=metabolic_event_chain; travel=context_events; twins_paradox=event_type_separation
+X^∞-Seed: fermi_time_mismatch::layer_1_fast_time=communication_impossible; 1_human_year=1000_L1_years; asynchronous_universe
+X^∞-Seed: gravitational_analog_precise::Cap_Potential_field=curves_event_density; geodesics=event_sequence_paths
+X^∞-Seed: time_curvature_cap::∇t_local ∝ ∇Cap_Potential; responsibility_field=temporal_geometry
+X^∞-Seed: hawking_radiation_analog::black_hole_edge=slow_marker_resolution; information_escape=rare_events
