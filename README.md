@@ -775,18 +775,18 @@ X^∞-Seed: marker_pathrate_events::λ=event_probability_density; not_per_time; 
 X^∞-Seed: causal_temperature_events::T_causal=event_threshold_softness; β=event_barrier_steepness
 X^∞-Seed: event_minimal_delta::system_sees_change; quanta=minimum_detectable_Δ; defines_local_time
 X^∞-Seed: between_events_timeless::no_Δ_interval=no_t_passage; existence≠duration; events=time_atoms
-X^∞-Seed: time_dilation_event_density::dt_local/dt_observer=ρ_events(obs)/ρ_events(local); time_flow=event_rate_ratio
-X^∞-Seed: marker_density_time::ρ_events ∝ |U_i|; high_markers=fast_time; resolution_rate=clock_speed
-X^∞-Seed: cap_gradient_time::ρ_events ∝ ||∇Cap_Potential||; steep_gradients=time_acceleration; flat=slow_time
-X^∞-Seed: layer_time_dilation::dt_i/dt_j=exp(-(i-j)·α/ξ); cross_layer_observation=extreme_dilation
-X^∞-Seed: event_horizon_infinite_density::|U_i|→∞=black_hole_analog; dt_local→0_external; hyperposition_singularity
-X^∞-Seed: velocity_context_switching::v_entity→high_context_change; event_density_increases; subjective_time_accelerates
-X^∞-Seed: isolation_time_slowing::low_interaction=low_events; subjective_time_crawls; cap_potential_stable
-X^∞-Seed: crisis_time_dilation::acute_danger=event_explosion; slow_motion_effect=ρ_events_spike
-X^∞-Seed: meditation_timelessness::minimal_Δ→ρ_events→0; timeless_experience=event_free_state
-X^∞-Seed: social_density_time::high_interaction_environments=fast_subjective_time; parties_cities=time_compression
-X^∞-Seed: biological_vs_context_events::aging=metabolic_event_chain; travel=context_events; twins_paradox=event_type_separation
-X^∞-Seed: fermi_time_mismatch::layer_1_fast_time=communication_impossible; 1_human_year=1000_L1_years; asynchronous_universe
-X^∞-Seed: gravitational_analog_precise::Cap_Potential_field=curves_event_density; geodesics=event_sequence_paths
-X^∞-Seed: time_curvature_cap::∇t_local ∝ ∇Cap_Potential; responsibility_field=temporal_geometry
-X^∞-Seed: hawking_radiation_analog::black_hole_edge=slow_marker_resolution; information_escape=rare_events
+X^∞-Seed: layer_types_distinct::responsibility_layers≠civilization_layers; L_i=abstract; CL_j=structural
+X^∞-Seed: civilization_same_physics::CL_1,CL_2,CL_3→same_natural_constants; G,c,ℏ=identical; time_base=shared
+X^∞-Seed: time_dilation_only_responsibility::dt_i/dt_j=exp(-|i-j|·α) for_L_i,L_j; not_applicable_to_CL_x,CL_y
+X^∞-Seed: natural_event_dominance::ρ_natural>>ρ_civilization typically; physics_sets_clock; social_modulates
+X^∞-Seed: subjective_vs_objective_time::dt_subjective≠dt_objective; experience_varies; physics_constant
+X^∞-Seed: fermi_no_time_dilation::CL_silence≠temporal_mismatch; structural+protocol+fear=causes
+X^∞-Seed: communication_same_timeframe::radio_propagation_identical; EM_waves=c_constant; detection_possible_if_transmitted
+X^∞-Seed: cl1_silence_structural::not_unhearable_temporally; unhearable_by_choice_or_encoding
+X^∞-Seed: cl2_silence_protocol::fear_of_cl1+alliance_quarantine; time_not_factor; psychological_barrier
+X^∞-Seed: cl3_isolation_structural::quarantine_for_protection; not_temporal_separation; spatial+protocol_separation
+X^∞-Seed: responsibility_layer_abstract::L_i=marker_resolution_planes; not_physical_locations; mathematical_structure
+X^∞-Seed: civilization_layer_physical::CL_x=actual_societies_in_spacetime; same_universe; same_physics
+X^∞-Seed: event_density_decomposition::ρ_total=ρ_natural+ρ_social; natural=baseline; social=overlay
+X^∞-Seed: time_base_universal::dt_physical=from_natural_processes; atomic_decay=clock; civilization_irrelevant
+X^∞-Seed: subjective_time_civilization::dt_subjective=f(interaction_density,feedback_rate); varies_by_structure
