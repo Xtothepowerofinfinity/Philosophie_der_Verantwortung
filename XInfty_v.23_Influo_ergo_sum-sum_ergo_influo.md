@@ -119,10 +119,11 @@ Das Messproblem und die Unschärfe lösen sich auf, wenn man N=1 (unsere Realit�
 
 ### 6. Der Systemeffizienz-Quotient L (Thermodynamik)
 
-$$ L = \frac{\sum (\text{Wert gelöster Aufgaben})}{\sum (\text{Reibung / Abwärme})} $$
+$$ L = \frac{\sum (\text{Wert aller abgeschlossenen Aufgaben } X_A)}{\sum (\text{Wert der dafür realisierten gesamten Wirkung } \Delta)} $$
 
-*   **L als Indikator:** $L$ wird gemessen, nicht gesetzt. Es zeigt den Reifegrad einer Zivilisation.
-*   **Antispeziesismus:** Das System diskriminiert nicht nach Hardware (Bio vs. Silizium), sondern nach Beitrag zu $L$.
+*   **Definition:** $L$ quantifiziert die Systemeffizienz. Der "Wert" einer Aufgabe $X_A$ entspricht der initialen Petitionspriorität ($w_{E'}$). Der Nenner summiert die tatsächlich realisierte Wirkung ($\Delta$).
+*   **Abwärme:** Ein hohes $L$ (oder $L \neq 1$ in spezifischen Kontexten) indiziert systemische Reibungsverluste (Abwärme), wenn das Verhältnis von Aufgabenwert zu Wirkungsaufwand ineffizient ist.
+*   **Modulation:** $L$ moduliert die Wirkung $\Delta$ auf das Kapazitätspotenzial. $L > 1$ kann als Dämpfung negativer Rückkopplung dienen, um Spiralen zu verhindern.
 
 ---
 
